@@ -13,3 +13,5 @@ LazyData: true
 RoxygenNote: 7.2.1
 Imports: 
     rvest
+URL: https://github.com/pierozannini/coolR
+BugReports: https://github.com/pierozannini/coolR/issues
