@@ -4,8 +4,8 @@
 #' @export
 #'
 #' @examples
-#' coolR()
-coolR <- function() {
+#' coolr()
+coolr <- function() {
   coolr_page <- rvest::read_html("https://github.com/pierozannini/coolr-list/blob/main/README.md")
   coolr_sites <- coolr_page |>
     rvest::html_elements("article") |>

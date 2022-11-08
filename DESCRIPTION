@@ -1,10 +1,10 @@
-Package: coolR
+Package: coolr
 Type: Package
-Title: Browse cool R sites
+Title: Discover cool R blogs
 Version: 0.1.0
 Author: Piero Zannini, PhD
 Maintainer: Piero Zannini <pierozannini91@gmail.com>
-Description: Randomly browses cool R sites such as blogs and GitHub pages.
+Description: Randomly browses cool R blogs.
     The list of cool R sites is hosted at https://github.com/pierozannini/coolr-list.
     You can contribute to the list by making a PR.
 License: GPL (>= 3)
@@ -13,5 +13,5 @@ LazyData: true
 RoxygenNote: 7.2.1
 Imports: 
     rvest
-URL: https://github.com/pierozannini/coolR
-BugReports: https://github.com/pierozannini/coolR/issues
+URL: https://github.com/pierozannini/coolr
+BugReports: https://github.com/pierozannini/coolr/issues
