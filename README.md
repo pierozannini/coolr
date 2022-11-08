@@ -3,6 +3,8 @@
 
 # coolr
 
+<img src="https://user-images.githubusercontent.com/61829115/200622730-82f48606-27b7-4864-b7d9-d5434803439b.png" width="200"/>
+
 <!-- badges: start -->
 <!-- badges: end -->
 
