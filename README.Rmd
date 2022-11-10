@@ -40,3 +40,7 @@ This is a basic example which shows you how to use the {coolr} package:
 library(coolr)
 coolr()
 ```
+
+## List of cool R blogs
+
+The list is currently being build at <https://github.com/pierozannini/coolr-list>. Contributions, through PRs, are welcome! Contributions guideline will be added soon.
