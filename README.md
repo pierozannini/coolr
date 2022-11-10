@@ -7,6 +7,8 @@
 
 <!-- badges: start -->
 
+[![Github All Releases](https://img.shields.io/github/downloads/pierozannini/coolr/total.svg)]()
+
 <!-- badges: end -->
 
 The goal of {coolr} is to make discovering cool R blogs super easy.
