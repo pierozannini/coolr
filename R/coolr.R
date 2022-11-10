@@ -6,12 +6,9 @@
 #' @examples
 #' coolr()
 coolr <- function() {
-  coolr_page <- rvest::read_html("https://github.com/pierozannini/coolr-list/blob/main/README.md")
-  coolr_sites <- coolr_page |>
-    rvest::html_elements("article") |>
-    rvest::html_elements("ul") |>
-    rvest::html_elements("a") |>
-    rvest::html_text()
+  if (!exists("coolr_sites")) {
+    coolr_sites <<- download_coolr_sites()
+  }
 
   browseURL(sample(coolr_sites, size = 1))
 }
